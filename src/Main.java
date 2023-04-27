@@ -9,5 +9,6 @@ public class Main {
         System.out.print("Enter b: ");
         int b = scn.nextInt();
         System.out.println(a+b);
+        System.out.println("Good bye!");
     }
 }
