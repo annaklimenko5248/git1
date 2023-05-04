@@ -8,11 +8,14 @@ public class Main {
         int a = scn.nextInt();
         System.out.print("Enter b: ");
         int b = scn.nextInt();
-        System.out.println("1. Minus");
+        System.out.println("1. Sum");
+        System.out.println("2. Minus");
         int input = scn.nextInt();
         switch (input){
-            case 1 -> System.out.println(a-b);
+            case 1 -> System.out.println(a+b);
+            case 2 -> System.out.println(a-b);
         }
+
         System.out.println("Good bye!");
     }
 }
