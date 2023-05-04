@@ -8,7 +8,11 @@ public class Main {
         int a = scn.nextInt();
         System.out.print("Enter b: ");
         int b = scn.nextInt();
-        System.out.println(a+b);
+        System.out.println("1. Sum");
+        int input = scn.nextInt();
+        switch (input){
+            case 1 -> System.out.println(a+b);
+        }
         System.out.println("Good bye!");
     }
 }
