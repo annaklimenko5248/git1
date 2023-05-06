@@ -14,6 +14,7 @@ public class Main {
         switch (input){
             case 1 -> System.out.println(a+b);
             case 2 -> System.out.println(a-b);
+            case 3 -> System.out.println(a*b);
         }
 
         System.out.println("Good bye!");
