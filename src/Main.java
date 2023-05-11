@@ -13,12 +13,14 @@ public class Main {
         System.out.println("2. Subtraction");
         System.out.println("3. Division");
         System.out.println("4. Multiplication");
+        System.out.println("5. Convert dollars to rubbles");
         int input = scn.nextInt();
         switch (input){
             case 1 -> System.out.println(calc.addition(a,b));
             case 2 -> System.out.println(calc.subtraction(a,b));
             case 3 -> System.out.println(calc.division(a,b));
             case 4 -> System.out.println(calc.multiplication(a,b));
+            case 5 -> System.out.println(Converter.convertDollarsToRubbles(a,b));
         }
         System.out.println("Good bye!");
     }
